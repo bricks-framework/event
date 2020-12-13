@@ -1,0 +1,21 @@
+{
+  "name": "bricks-framework/event",
+  "type": "bricks-framework",
+  "version": "0.1.1",
+  "description": "Bricks",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sven Ullmann",
+      "email": "kontakt@sumedia-webdesign.de"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "autoload": {
+    "classmap": ["lib/"]
+  }
+}
